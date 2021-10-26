@@ -1,0 +1,51 @@
+* {box-sizing: border-box;}
+
+body {
+  font-family: Arial;
+  background-color: #ADF8FF;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-color: #9EE2E8;
+  paddig: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: yellow;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 100%;
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav a {
+  color: #F4BC1C;
+}
+
+p {
+  float: left;
+}
+
+section {
+  float: left;
+  width: 70%;
+  height: 100%;
+  padding: 10px;
+  color: Black;
+  background-color: #FFF9AD;
+}
+
+img {
+  float: left;
+}
