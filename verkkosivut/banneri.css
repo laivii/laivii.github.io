@@ -86,11 +86,6 @@ input:first-of-type {
     z-index: 3;
 }
 
-input + input {
-    right: auto;
-    left: 0;
-}
-
 input:checked {
     z-index: 1;
 }
