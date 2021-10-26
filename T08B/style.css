@@ -1,0 +1,13 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+body {
+    width: 90%;
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+    border: 1px solid black;
+}
