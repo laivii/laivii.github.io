@@ -78,7 +78,10 @@ label {
     z-index: 1;
 }
 
-label:first-of-type,
+label:first-of-type{
+    z-index: 3;
+}
+
 input:first-of-type {
     z-index: 3;
 }
