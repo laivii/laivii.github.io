@@ -1,0 +1,21 @@
+body {
+	background: pink;
+	color: #000000;
+	font-size: 14pt;
+	text-align: center;
+	}
+
+h1 	{
+	color: #FFFFFF;
+	}
+
+h2 {
+	color: #000000;
+	border: 2px dashed #FFFFFF;
+	}
+
+ol {
+	background: yellow;
+	color: #ED5C9B;
+	list-style-position: inside;
+	}
