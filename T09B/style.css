@@ -6,12 +6,12 @@ body {
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 h1 {
-    font-size: large;
+    font-size: 25px;
 }
 
 nav {
@@ -20,6 +20,7 @@ nav {
 }
 
 nav li {
+    list-style-type: none;
     display: inline-block;
 }
 
