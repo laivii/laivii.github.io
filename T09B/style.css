@@ -14,6 +14,11 @@ h1 {
     font-size: large;
 }
 
+nav {
+    background-color: black;
+    color: white;
+}
+
 nav li {
     display: inline-block;
 }
