@@ -5,6 +5,10 @@ body {
     margin-right: auto;
 }
 
+p {
+    text-align: justify;
+}
+
 img {
     width: 200px;
     height: 200px;
