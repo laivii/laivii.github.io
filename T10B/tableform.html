@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title></title>
-		<link rel="stylesheet" href="style.css">
+		<title>TEHT 10B</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale-1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-        <h1>TEHTÄVÄ 10B: TAULUKKO JA LOMAKE</h1>
+        <header><h1>TEHTÄVÄ 10B: TAULUKKO JA LOMAKE</h1></header>
+        <hr>
+        <section>
         <table>
             <caption>Taulukko</caption>
             <tr><th rowspan="2">Otsikko1</th><th colspan="2">Otsikko2</th><th>Otsikko3</th></tr>
@@ -17,7 +20,7 @@
             <tr><td>Solu10</td><td>Solu11</td><td>Solu12</td><td>HIHI</td></tr>
             <tr><td>Solu13</td><td>Solu14</td><td>Solu15</td><td>HIHI</td></tr>
          </table>
-        
+
         <h2>Sign up</h2>
         <form action="https://www.w3schools.com/action_page.php">
             Name: <input type="text" name="usrname" placeholder="Your name..." required></br>
@@ -27,7 +30,7 @@
             Email: <input type="text" name="email" placeholder="Your emal..." required></br>
             </br>
             Lisätietoa: </br>
-            <textarea name="comment" placeholder="Write here..." required></textarea>
+            <textarea name="comment" rows="4" cols="80" placeholder="Write here..." required></textarea>
             </br>
             </br>
             <input type="checkbox" name="letter" value="Signed_up">
@@ -44,8 +47,13 @@
             <br>
             <br>
             <input type="submit" value="Add new user">
+            <br>
+            <br>
         </form>
-
+        </section>
         <hr>
+        <footer>
+            <p>Tämä on ollut hieman työläs harjoitustehtävä! <span class="fa fa-thumbs-up"></span> </p>
+        </footer>
 	</body>
 </html>

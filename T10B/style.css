@@ -39,3 +39,13 @@ textarea {
 h2 {
     float: left;
 }
+
+section {
+    float: left;
+    width: 100%;
+}
+
+footer {
+    float: left;
+    width: 100%;
+}
