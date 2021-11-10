@@ -11,8 +11,8 @@ header {
     background-color: lightblue;
     width: 100%;
     text-align: center;
-    font-size: 40px;
-    padding: 3px;
+    font-size: xx-large;
+    padding: 1%;
 }
 
 a {
@@ -28,16 +28,11 @@ a:hover {
 section {
     float: left;
     width: 70%;
-    padding: 10px;
+    padding: 2%;
 }
 
 .sec2 {
     background-color: rgb(181, 230,29);
-}
-
-.secmain {
-    float: left;
-    width: 100%;
 }
 
 hr {
@@ -46,7 +41,7 @@ hr {
 
 footer {
     float: left;
-    padding: 5px;
+    padding: 1%;
     width: 100%;
 }
 
@@ -57,7 +52,7 @@ nav {
 
 aside {
     float: left;
-    padding: 10px;
+    padding: 2%;
     width: 30%;
     background-color: rgb(200, 191, 231);
 }
