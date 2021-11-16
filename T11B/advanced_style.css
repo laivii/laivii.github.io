@@ -1,14 +1,17 @@
 * {box-sizing: border-box;}
 
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: black;
+      color: white;
+    }
+  }
+
 body {
     text-align: center;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-}
-
-header {
-    background-color: white;
 }
 
 section {
@@ -43,8 +46,22 @@ p {
 
 }
 
+nav {
+    background-color: hotpink;
+    padding: 1%;
+}
+
+a {
+    color:black;
+}
+
+a:hover {
+    color:red;
+    transition: 1s;
+}
+
 #background {
     background-image: url("images/vancat.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
