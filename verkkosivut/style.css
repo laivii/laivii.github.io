@@ -27,12 +27,13 @@ a:hover {
 
 section {
     float: left;
-    width: 70%;
+    width: 100%;
     padding: 2%;
+    text-align: justify;
 }
 
 .sec2 {
-    background-color: rgb(181, 230,29);
+    width: 80%;
 }
 
 hr {
@@ -53,6 +54,11 @@ nav {
 aside {
     float: left;
     padding: 2%;
-    width: 30%;
+    width: 20%;
     background-color: rgb(200, 191, 231);
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
