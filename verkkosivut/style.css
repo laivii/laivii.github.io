@@ -56,6 +56,10 @@ aside {
     background-color: rgb(200, 191, 231);
 }
 
+footer {
+    background-color: pink;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -67,7 +71,7 @@ img {
     vertical-align: middle;
 }
 
-xli {
+.li {
     list-style-type: none;
 }
 

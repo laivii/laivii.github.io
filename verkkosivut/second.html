@@ -11,7 +11,7 @@
     </head>
     <body>
         <header>
-            <h1>GALLERIA</h1>
+            <h1>SUOLAISET</h1>
         </header>
         
         <hr>
@@ -22,11 +22,12 @@
               <li class="nav-item">
                 <a class="nav-link" href="https://laivii.github.io/verkkosivut/">ETUSIVU</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://laivii.github.io/verkkosivut/second.html">TOINEN SIVU</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://laivii.github.io/verkkosivut/third.html">KOLMAS SIVU</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">LEIVONNAISET</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://laivii.github.io/verkkosivut/second.html">Suolaiset</a></li>
+                  <li><a class="dropdown-item" href="https://laivii.github.io/verkkosivut/third.html">Makeat</a></li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://laivii.github.io/verkkosivut/fourth.html">RAPORTTI</a>
@@ -38,49 +39,114 @@
         <hr>
 
         <div class="row">
-        <div class="col-sm-3">
-        <aside>
-            <h2>LISÄTIETOA RODUISTA:</h2>
-            <br>
-            <ul>
-              <li><a href="https://www.hankikoira.fi/koirarodut/">Koiraroduista</a></li>
-              <li><a href="https://www.zooplus.fi/tietonurkka/kissat/kissarodut">Kissaroduista</a></li>
-            </ul>
-        </aside>
+          <div class="col-sm-3">
+            <aside>
+              <h4>RESEPTIT:</h4>
+              <ul>
+                <li><a href="#sämpylät">Sämpylät</a></li>
+                <li><a href="#teeleipä">Teeleipä</a></li>
+              </ul>
+            </aside>
+          </div>
+
+          <div class="col-sm-9">
+            <section>
+              <h2>SUOLAISET LEIVONNAISET:</h2>
+              <br>
+              <h4 id="sämpylät">SÄMPYLÄT:</h4>
+              <div class="row">
+                <div class="col-sm-6">
+                  <img src="images/sämpylät.png" alt="sämpylöitä">
+
+                  <br>
+                  <br>
+
+                  <p>AINEKSET:</p>
+                  <ul>
+                    <li>2,5 dl vettä tai maitoa</li>
+                    <li>25 g hiiva (1 pussi)</li>
+                    <li>1 tl sokeria</li>
+                    <li>0,5 tl suolaa</li>
+                    <li>noin 6 dl sämpylä- tai hiivaleipäjauhoja</li>
+                    <li>2 rkl öljyä</li>
+                  </ul>
+
+                  <p>VINKKI:</p>
+                  <ul>
+                    <li class="li">Porkkanasämpylät: lisää taikinaan 1-2 dl porkkanaraastetta.</li>
+                  </ul>
+                </div>
+                <div class="col-sm-6">
+                  <p>OHJEET:</p>
+                  <ol>
+                    <li>Lämmitä neste kädenlämpöiseksi.</li>
+                    <li>Murenna ja liota hiiva nesteeseen, lisää sokeri ja suola 
+                    ja sekoita. Lisää yli puolet jauhoista haarukkavatkaimella sekoittaen.</li>
+                    <li>Lisää jauhoja vähitellen ja alusta taikinaa vain toisella kädellä.</li>
+                    <li>Lisää lopuksi öljy ja alusta, kunnes taikina irtoaa kulhon reunoista ja kädestä.</li>
+                    <li>Peitä kulho leivinliinalla ja kohota taikina kaksinkertaiseksi lämpimässä paikassa.</li>
+                    <li>Vaivaa kohonnut taikina jauhotetulla leivinpöydällä. Muotoile taikina tangoksi ja jaa se 
+                      12 osaan. Muovista leipurinlastaa tai kaavinta käyttämällä et naarmuta pöytää.</li>
+                    <li>Leivo taikinapalat sämpylöiksi ja aseta ne pellille leivinpaperille tasaisin välein. Pane 
+                      uuni kuumenemaan 225 °C:seen.</li>
+                    <li>Peitä sämpylät leivinliinalla ja kohota. Sämpylät ovat paistovalmiita, kun ne tuntuvat 
+                      pehmeiltä ja niihin jää kuoppa sormella painettaessa. Jos haluat sämpylöistä rapeakuorisia, 
+                      älä peitä niitä leivinliinalla kohottamisen aikana äläkä myöskään uunista ottamisen jälkeen.</li>
+                    <li>Paista sämpylöitä uunin keskitasossa noin 10 minuuttia.</li>
+                  </ol>
+                </div>
+              </div>
+
+              <hr>
+              
+              <h4 id="teeleipä">TEELEIPÄ</h4>
+              <div class="row">
+                <div class="col-sm-6">
+                  <img src="images/teeleipä.png" alt="teeleipää">
+                  <br><br>
+                  <p>AINEKSET:</p>
+                  <ul>
+                    <li>2 dl jauhoja</li>
+                    <li>1 tl leivinjauhetta</li>
+                    <li>1/4 tl suolaa</li>
+                    <li>1 dl vettä tai maitoa</li>
+                    <li>1 rkl öljyä</li>
+                    <li>(mausteita)</li>
+                  </ul>
+                </div>
+                <div class="col-sm-6">
+                  <p>OHJEET:</p>
+                  <ol>
+                    <li>Pane uuni kuumenemaan 225 °C:seen.</li>
+                    <li>Sekoita kuivat aineet kulhossa.</li>
+                    <li>Lisää kylmä neste ja öljy.</li>
+                    <li>Sekoita taikina tasaiseksi, mutta sekoita 
+                    kuitenkin mahdollisimman vähän.</li>
+                    <li>Jaa taikina pellille leivinpaperin päälle kahteen osaan. 
+                    Taputtele jauhotetuilla käsillä pyöreiksi, noin senttimetrin 
+                    paksuisiksi leiviksi. Voit valmistaa taikinasta myös vain yhden teeleivän.</li>
+                    <li>Jaa leivät taikinapyörällä neljään osaan ja pistele haarukalla.</li>
+                    <li>Paista heti uunin keskitasossa 10-15 minuuttia.</li>
+                  </ol>
+
+                  <br>
+
+                  <p>VINKKI:</p>
+                  <ul>
+                  <li class="li">Porkkanateeleivät: lisää taikinaan 1 dl porkkanaraastetta.</li>
+                  <li class="li">Juustoteeleivät: lisää taikinaan 1 dl juustoraastetta.</li>
+                  <li class="li">Yrttiteeleivät: lisää taikinaan 1 rkl tuoreita, hienonnettuja yrttejä tai 1 tl kuivattuja yrttejä.</li>
+                  <li class="li">Pinaattiteeleivät: lisää taikinaan vähän pakastepinaattia.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <hr>
+
+            </section>
+          </div>
         </div>
 
-        <div class="col-sm-9">
-        <section>
-            <h2>KOOTUSTI VIIVIN LEMPIELÄIMET:</h2>
-            <p>Tällä sivulla listattuna viivin suosikki eläimiä, kuvat näyttävät parhaimmilta pinemmällä näytöllä :-)!</p>
-            <h3>Eläimet:</h3>
-            <h4>Koirat:</h4>
-            <div class="row">
-              <div class="col-sm-3"><img src="images/samo.png" alt="samojedi"><p>Samojedit</p></div>
-              <div class="col-sm-3"><img src="images/dopermanni.png" alt="dopermanni"><p>Unelmakoira Dopermanni, toki luppakorvaisena</p></div>
-              <div class="col-sm-3"><img src="images/nöffi.png" alt="newfoundlandingkoira"><p>Newfoundlandingkoira eli Nöffi, hevosen kokoinen pörröinen sylihauva</p></div>
-              <div class="col-sm-3"><img src="images/chowchow.png" alt="chow chow"><p>Ultimaattinen unelmien koira eli Chow Chow suomalaisittain Kiinanpystykorva</p></div>
-            </div>
-
-            <br>
-            <h4>Kissat:</h4>
-            <div class="row">
-              <div class="col-sm-3"><img src="images/siperia.png" alt="siperian kissa"><p>Siperian kissa lemppari koska perheemme omistaa yhden tämän rotuisen kissan</p></div>
-              <div class="col-sm-3"><img src="images/kissa.png" alt="maatiasikissa"><p>Perinteiset maatias- eli kotikissat, sillä perheessämme aina ollut niitä</p></div>
-              <div class="col-sm-3"><img src="images/engshort.png" alt="British shorthair"><p>Brittiläinen lyhykarva on rotuna kaunis siksi yksi lemppareista</p></div>
-              <div class="col-sm-3"><img src="images/selkirk.png" alt="Selkirk rex"><p>Selkirk rex rodulla on omalaatuinen turkki, joka on tehnyt minuun vaikutuksen</p></div>
-            </div>
-
-            <br>
-            <h4>Muita eläimiä:</h4>
-            <div class="row">
-              <div class="col-sm-3"><img src="images/fretti.png" alt="fretti"><p>Fretit kuuluu lemppareihin, koska muistuttavat spagettia ja kissanpentuja</p></div>
-              <div class="col-sm-3"><img src="images/chinchilla.png" alt="chinchilla"><p>Chinchillat on vaan niin lutuisia otuksia</p></div>
-              <div class="col-sm-3"><img src="images/fluffycow.png" alt="Pörröinen lehmä"><p>Tykkään yleisestikin lehmistä eläimenä, mutta pörröiset on niistä parhaita</p></div>
-              <div class="col-sm-3"><img src="images/redpanda.png" alt="Pikku panda"><p>Pikku pandat on aina ollut mielestäni parhaita ja halusin pienenä sellaisen lemmikiksi</p></div>
-            </div>
-        </section>
-        </div>
-      </div>
+        
     </body>
 </html>
