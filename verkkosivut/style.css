@@ -30,7 +30,6 @@ a:hover {
 }
 
 section {
-    float: left;
     width: 100%;
     padding: 2%;
 }
@@ -44,16 +43,24 @@ hr {
 }
 
 footer {
-    float: left;
     padding: 1%;
     width: 100%;
 }
 
 aside {
     float: left;
-    padding: 5%;
-    width: 100%;
-    background-color: rgb(200, 191, 231);
+    padding: 2%;
+    width: 20%;
+    top: auto;
+    position: fixed;
+}
+
+.suola {
+    background-color: rgba(180, 230, 29, 0.397);
+}
+
+.makeat {
+    background-color: rgba(255, 192, 203, 0.507);
 }
 
 footer {
@@ -63,6 +70,7 @@ footer {
 img {
     width: 100%;
     height: auto;
+    margin-bottom: 5%;
 }
 
 .align {
@@ -78,4 +86,30 @@ img {
 li a {
     color: black;
     text-decoration: none;
+}
+
+.border {
+    border: 5px solid black;
+    padding: 3%;
+    font-size: small;
+    margin-bottom: 4%;
+}
+
+.aineet {
+    text-decoration: 3px underline rgb(181, 230, 29);
+}
+
+.aineet2 {
+    text-decoration: 3px underline pink;
+}
+
+nav {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+button {
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
 }
