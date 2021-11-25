@@ -25,7 +25,7 @@ header {
     padding: 1%;
 }
 
-a:hover {
+ nav a:hover {
     background-color: pink;
 }
 
@@ -48,11 +48,8 @@ footer {
 }
 
 aside {
-    float: left;
-    padding: 2%;
-    width: 20%;
-    top: auto;
-    position: fixed;
+    padding: 5%;
+    width: 100%;
 }
 
 .suola {
@@ -96,11 +93,11 @@ li a {
 }
 
 .aineet {
-    text-decoration: 3px underline rgb(181, 230, 29);
+    text-decoration: 3px underline #b5e61d;
 }
 
 .aineet2 {
-    text-decoration: 3px underline pink;
+    text-decoration: 3px underline #ffc0cb;
 }
 
 nav {
@@ -110,6 +107,14 @@ nav {
 
 button {
     position: fixed;
-    right: 2%;
-    bottom: 2%;
+    right: 0;
+    bottom: 0;
+    width: 70px;
+    height: 70px;
+}
+
+h1 {
+    color: white;
+    width: 100%;
+    height: 50px;
 }
