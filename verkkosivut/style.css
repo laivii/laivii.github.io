@@ -70,7 +70,7 @@ aside {
 }
 
 .suola {
-    background-color: rgba(180, 230, 29, 0.397);
+    background-color: rgba(126, 230, 29, 0.397);
 }
 
 .makeat {
@@ -80,6 +80,7 @@ aside {
 .ruoka  {
     background-color: rgba(221, 160, 221, 0.714);
 }
+
 
 footer {
     background-color: pink;
@@ -114,7 +115,7 @@ li a {
 }
 
 .aineet {
-    text-decoration: 3px underline #b5e61d;
+    text-decoration: 3px underline #77e61d;
 }
 
 .aineet2 {
