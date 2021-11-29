@@ -59,6 +59,7 @@ hr {
 footer {
     padding: 1%;
     width: 100%;
+    text-align: end;
 }
 
 aside {
