@@ -1,0 +1,60 @@
+* {box-sizing: border-box;}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(238,44,130);
+  font-size: 8vw;
+}
+
+.bingo-card {
+  display: grid;
+  grid-template-rows: repeat(5, 30%);
+  grid-template-columns: repeat(5, 1fr);
+  text-transform: uppercase;
+  border: 2px solid white;
+}
+
+.bingo-card__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 2.4vw;
+  background-color: rgb(248, 239, 239);
+  user-select: none;
+}
+
+.bingo-card__item:after {
+  content: "x";
+  color: rgb(238,44,130);
+  position: absolute;
+  height: 100%;
+  opacity: 0;
+  height: 0;
+  font: 12vw "Caveat Brush", cursive;
+}
+
+.bingo-card__item.active:after {
+  height: 100%;
+  opacity: 0.9;
+}
+
+.bingo-card__item {
+  padding: 10%;
+  border: 2px solid white;
+}
+
+.free {
+  font-size: 120%;
+  color: rgb(238,44,130);
+  font-weight: bold;
+}
+
+.bingo {
+  font-weight: bolder;
+  font-size: 11vW;
+  margin: 0%;
+}
