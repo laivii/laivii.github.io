@@ -34,7 +34,7 @@ h1 {
   height: 100%;
   opacity: 0;
   height: 0;
-  font: 12vw "Caveat Brush";
+  font: 16vw "Arial";
 }
 
 .bingo-card__item.active:after {
