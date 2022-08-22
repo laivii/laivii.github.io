@@ -34,7 +34,7 @@ h1 {
   height: 100%;
   opacity: 0;
   height: 0;
-  font: 16vw "Arial";
+  font: 16vw "Bradley Hand ITC";
 }
 
 .bingo-card__item.active:after {
