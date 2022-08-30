@@ -18,11 +18,14 @@
 
 		<div class="rastit">
 			<h2>RASTIT:</h2>
-			<ol type="A">
+			<!--<ol type="A">
 				<li>Aloitusrasti (Ratatie 22)</li>
 			</ol>
 			<ol>
-				<li>Lato</li>
+				<li>
+					<label for="place1"> Lato</label>
+					<input type="checkbox" id="place1" name="Lato" value="checked">
+				</li>
 				<li>Tutorit</li>
 				<li>Laureamko</li>
 				<li>Kampustiimi</li>
@@ -35,6 +38,43 @@
 				<li>Tutorit (Heurekan puisto)</li>
 				<li>Tutorit (Heurekan puisto)</li>
 			</ol>
+		</div> -->
+		
+		<div class="grid-container">
+			<div class="item">A. Aloitusrasti</div>
+			<div id="1" class="item2" onclick="klikattu()"></div>
+			<div class="item2">1. Lato</div>
+			<div class="item3"><input type="checkbox" id="item3" name="item3" value="suoritettu"></div>
+			<div class="item5">2. Tutorit</div>
+			<div class="item6"><input type="checkbox" id="item6" name="item6" value="suoritettu"></div>
+			<div class="item7">3. Laureamko</div>
+			<div class="item8"><input type="checkbox" id="item8" name="item8" value="suoritettu"></div>
+			<div class="item9">4. Kampustiimi</div>
+			<div class="item10"><input type="checkbox" id="item10" name="item10" value="suoritettu"></div>
+			<div class="item11">5. Jenkins</div>
+			<div class="item12"></div>
+			<div class="item13">6. LOB</div>
+			<div class="item14"></div>
+			<div class="item15">7. Tutorit (Neilikkapuisto)</div>
+			<div class="item16"></div>
+			<div class="item17">8. L'Addikti</div>
+			<div class="item18"></div>
+			<div class="item19">9. Tutorit</div>
+			<div class="item20"></div>
+			<div class="item21">10. Tutorit</div>
+			<div class="item22"></div>
+			<div class="item23">11. Tutorit (Heurekan puisto)</div>
+			<div class="item24"></div>
+			<div class="item23">12. Tutorit (Heurekan puisto)</div>
+			<div class="item24"></div>
 		</div>
+		</div>
+
+		<script>
+			function klikattu() {
+				document.getElementById("1").innerHTML = "OK";
+			}
+		</script>
+
 	</body>
 </html>

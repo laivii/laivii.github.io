@@ -11,7 +11,6 @@ body{
     background-image: url('../images/background_beach.jpg');
 }
 
-
 img {
     width: 100%;
 }
@@ -23,15 +22,33 @@ h1{
     border-radius: 3px;
 }
 
-.rastit {
-    background-color: rgba(255, 255, 255, 0.683);
-    text-align: left;
-    padding-left: 2%;
-    padding-bottom: 1%;
-    font-size: 4vw;
-}
-
 h2{
     color: rgb(238,44,130);
     padding-top: 3%;
+    padding-left: 2%;
 }
+
+.rastit {
+    background-color: rgba(255, 255, 255, 0.683);
+    text-align: left;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 89% 10%;
+    grid-template-rows: repeat(13, 1fr) ;
+    width: 98%;
+    line-height: 1;
+    grid-gap: 1%;
+    padding: 1%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    font-size: 4vw;
+    padding: 1%;
+  }
