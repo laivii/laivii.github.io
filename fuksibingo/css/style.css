@@ -18,7 +18,6 @@ h1 {
   grid-template-rows: repeat(5, 30%);
   grid-template-columns: repeat(5, 1fr);
   text-transform: uppercase;
-  border: 2px solid white;
 }
 
 .bingo-card__item {
@@ -29,15 +28,17 @@ h1 {
   font-size: 2.4vw;
   background-color: rgb(248, 239, 239);
   user-select: none;
+  padding: 10%;
+  border: 2px solid white;
 }
 
 .bingo-card__item:after {
   content: "x";
   color: rgb(238,44,130);
   position: absolute;
-  height: 100%;
+  /*height: 100%;*/
   opacity: 0;
-  height: 0;
+  /*height: 0;*/
   font: 16vw "Arial";
 }
 
@@ -46,13 +47,8 @@ h1 {
   opacity: 0.9;
 }
 
-.bingo-card__item {
-  padding: 10%;
-  border: 2px solid white;
-}
-
 .free {
-  font-size: 120%;
+  font-size: 4vw;
   color: rgb(238,44,130);
   font-weight: bold;
 }
